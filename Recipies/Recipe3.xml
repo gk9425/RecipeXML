@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Recipe SYSTEM "../Dtd/Recipe.dtd">
+<?xml-stylesheet type="text/xsl" href="../Css/Recipe.xsl"?>
+<Recipe Difficulty="Normal" Preptime="10 min" Cooktime="20 min" Yield="4" RecipeBy = "unv_600006299">
+    <Title>SLOW COOKER GARLIC PARMESAN POTATOES</Title>
+    <Introduction>
+        <Description Image="../Images/Potatoes.jpg" Source="http://damndelicious.net/2014/12/23/slow-cooker-garlic-parmesan-potatoes/">Crisp-tender potatoes loaded with garlicky parmesan goodness – and it’s the easiest side dish you will ever make right in the crockpot!
+        </Description>
+    </Introduction>
+    <Ingredients>
+        <Item>
+            <Name>Baby Dutch yellow potatoes, halved</Name>
+            <Information>
+                <Detail> 
+                    <Quantity>3</Quantity>
+                    <Unit>Pounds</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Olive oil</Name>
+            <Information>
+                <Detail>
+                    <Quantity>3</Quantity>
+                    <Unit>Tablespoon</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Unsalted butter</Name>
+            <Information>
+                <Detail>
+                    <Quantity>2</Quantity>
+                    <Unit>Tablespoon</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Garlic Cloves, Minced</Name>
+            <Information>
+                <Detail>
+                    <Quantity>4</Quantity>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Dried Oregano</Name>
+            <Information>
+                <Detail>
+                    <Quantity>1/2</Quantity>
+                    <Unit>Teaspoon</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        
+        <Item>
+            <Name>Dried basil</Name>
+            <Information>
+                <Detail>
+                    <Quantity>1/2</Quantity>
+                    <Unit>Teaspoon</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        
+        <Item>
+            <Name>Dried Dill</Name>
+            <Information>
+                <Detail>
+                    <Quantity>1/2</Quantity>
+                    <Unit>Teaspoon</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Kosher Salt</Name>
+            <Information>add to taste</Information>
+        </Item>
+        <Item>
+            <Name>Black Pepper</Name>
+            <Information>grounded, add to taste</Information>
+        </Item>
+    
+    <Item>
+        <Name>Freshly Grated Parmesan</Name>
+        <Information>
+            <Detail>
+                <Quantity>1/4</Quantity>
+                <Unit>Cup</Unit>
+                
+            </Detail>
+        </Information>
+    </Item>
+    <Item>
+    <Name>Fresh Parsley Leaves</Name>
+    <Information>
+        <Detail>
+            <Quantity>2</Quantity>
+            <Unit>Tablespoons</Unit>
+        </Detail>
+    </Information>
+    </Item>
+    </Ingredients>
+    <Procedure>
+        <Step>Lightly coat the inside of a slow cooker with nonstick spray. </Step> 
+        <Step>Place potatoes, olive oil, butter, garlic, oregano, basil and dill into the slow cooker; season with salt and pepper, to taste.
+        </Step>  
+        <Step>Cover and cook on low heat for 4-5 hours or high heat for 2-3 hours, or until tender.</Step>
+        <Step> Serve immediately, sprinkled with Parmesan and garnished with parsley, if desired.</Step>
+    </Procedure>
+    <Delectable/>
+    <Groups>
+        <Group Group_Name = "Group 1">
+            <Student ID='unv_600006297'>
+                <FirstName>Gaurav</FirstName>
+                <LastName>Kumar</LastName>              
+            </Student>
+            <Student ID='unv_600006298'>
+                <FirstName>Aditya</FirstName>
+                <LastName>Bishk</LastName>               
+            </Student>
+            <Student ID='unv_600006299'>
+                <FirstName>Vidya</FirstName>
+                <LastName>Swaroop</LastName>              
+            </Student>
+            <Student ID='unv_600006296'>
+                <FirstName>Neris</FirstName>
+                <LastName>Abreu Morillo</LastName>             
+            </Student>
+        </Group> 
+    </Groups>
+</Recipe>

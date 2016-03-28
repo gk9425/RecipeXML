@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Recipe SYSTEM "../Dtd/Recipe.dtd">
+<?xml-stylesheet type="text/xsl" href="../Css/Recipe.xsl"?>
+<Recipe Difficulty= "Expert"  Preptime="20 min" Cooktime="40 min" Yield="4" RecipeBy = "unv_600006298">
+    <Title>Butter Chicken</Title>
+    <Introduction>
+        <Description Image="../Images/bc.jpg" Source="http://cooking.nytimes.com/recipes/1016754-butter-chicken">Butter chicken is the General Tso’s of Indian food, a great, ever-evolving, cross-continental dish found in Delhi, London, New York, Perth and most points in between.
+        </Description>
+    </Introduction>
+    <Ingredients>
+        <Item>
+            <Name> Full-fat Greek yogurt</Name>
+            <Information>
+                <Detail> 
+                    <Quantity>1 ½</Quantity>
+                    <Unit>Cups</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Lemon Juice</Name>
+            <Information>
+                <Detail>
+                    <Quantity>2</Quantity>
+                    <Unit>Tablespoon</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Chicken Thighs</Name>
+            <Information>
+                <Detail>
+                    <Quantity>3</Quantity>
+                    <Unit>Pounds</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Garam Masala</Name>
+                <Information>
+                    <Detail>
+                        <Quantity>2</Quantity>
+                        <Unit>Tablespoon</Unit>
+                    </Detail>
+                </Information>
+        </Item>
+        <Item>
+            <Name> Neutral oil, like Vegetable or Canola oil</Name>
+            <Information>
+                <Detail>
+                    <Quantity>4</Quantity>
+                    <Unit>Teaspoon</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        
+        <Item>
+            <Name>Butter</Name>
+            <Information>
+                <Detail>
+                    <Quantity> ¼</Quantity>
+                    <Unit>Pound</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        
+        <Item>
+            <Name>Ground Cumin</Name>
+            <Information>
+                <Detail>
+                    <Quantity>2</Quantity>
+                    <Unit>Tablespoon</Unit> 
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Chicken stock, low-sodium or homemade</Name>
+            <Information>
+                <Detail>
+                    <Quantity>⅔ </Quantity>
+                    <Unit>Cups</Unit> 
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Cumin Seeds</Name>
+            <Information>
+                <Detail>
+                    <Quantity>1</Quantity>
+                    <Unit>Tablespoon</Unit> 
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name> Yellow onions, peeled and diced</Name>
+            <Information>
+                <Detail>
+                    <Quantity>2</Quantity>
+                    <Unit>Medium Size</Unit> 
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name> Full Cream</Name>
+            <Information>
+                <Detail>
+                    <Quantity>1 ½ </Quantity>
+                    <Unit>Cups</Unit> 
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Tomato Paste</Name>
+            <Information>
+                <Detail>
+                    <Quantity>1 ½ </Quantity>
+                    <Unit>Teaspoons</Unit> 
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name> Fresh ginger, peeled and grated or finely diced</Name>
+            <Information>
+                <Detail>
+                    <Quantity>3</Quantity>
+                    <Unit>Tablespoon</Unit> 
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name> Ground almonds, or finely chopped almonds</Name>
+            <Information>
+                <Detail>
+                    <Quantity>3</Quantity>
+                    <Unit>Tablespoon</Unit> 
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            
+            <Name>Kosher Salt</Name>
+            <Information>add to taste</Information>
+        </Item>
+        <Item>
+            <Name>Black Pepper</Name>
+            <Information>grounded, add to taste</Information>
+        </Item>
+        <Item>
+            <Name>Cinnamon</Name>
+            <Information>
+                <Detail>
+                    <Quantity>1</Quantity>
+                    <Unit>Stick</Unit> 
+                </Detail>
+            </Information>
+        </Item>
+    </Ingredients>
+    <Procedure>
+        <Step>Whisk together the yogurt, lemon juice, turmeric, garam masala and cumin in a large bowl. Put the chicken in, and coat with the marinade. Cover, and refrigerate (for up to a day). </Step> 
+        <Step>In a large pan over medium heat, melt the butter in the oil until it starts to foam. Add the onions, and cook, stirring frequently, until translucent. Add the garlic, ginger and cumin seeds, and cook until the onions start to brown. </Step>  
+        <Step>Add the cinnamon stick, tomatoes, chiles and salt, and cook until the chiles are soft, about 10 minutes.</Step>
+        <Step>
+            Add the chicken and marinade to the pan, and cook for 5 minutes, then add the chicken stock. Bring the mixture to a boil, then lower the heat and simmer, uncovered, for approximately 30 minutes.
+        </Step>
+        <Step>
+            Stir in the cream and tomato paste, and simmer until the chicken is cooked through, approximately 10 to 15 minutes.
+        </Step>
+        <Step>
+            Add the almonds, cook for an additional 5 minutes and remove from the heat. Garnish with the cilantro leaves.
+        </Step>
+    </Procedure>
+    <Delectable/>
+    <Groups>
+        <Group Group_Name = "Group 1">
+            <Student ID='unv_600006297'>
+                <FirstName>Gaurav</FirstName>
+                <LastName>Kumar</LastName>              
+            </Student>
+            <Student ID='unv_600006298'>
+                <FirstName>Aditya</FirstName>
+                <LastName>Bisht</LastName>               
+            </Student>
+            <Student ID='unv_600006299'>
+                <FirstName>Vidya</FirstName>
+                <LastName>Swaroop</LastName>              
+            </Student>
+            <Student ID='unv_600006296'>
+                <FirstName>Neris</FirstName>
+                <LastName>Abreu Morillo</LastName>             
+            </Student>
+        </Group> 
+    </Groups>
+</Recipe>

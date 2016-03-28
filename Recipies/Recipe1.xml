@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Recipe SYSTEM "../Dtd/Recipe.dtd">
+<?xml-stylesheet type="text/xsl" href="../Css/Recipe.xsl"?>
+
+<Recipe Difficulty="Normal" Preptime="10 min" Cooktime="20 min" Yield="4" RecipeBy = "unv_600006297">
+    <Title>HONEY GLAZED SALMON</Title>
+  <Introduction>
+      <Description Image="../Images/hgs.jpg" Source="http://damndelicious.net/2014/08/18/honey-glazed-salmon/">The perfect salmon right at home – wonderfully crisp and seared on the outside and completely cooked through to perfection on the inside.The most flavorful salmon you will ever make. 
+          And that browned butter lime sauce is to die for!
+      </Description>
+  </Introduction>
+    <Ingredients>
+        <Item>
+            <Name>Salmon filets</Name>
+           <Information>
+               <Detail> 
+                   <Quantity>4</Quantity>
+               </Detail>
+           </Information>
+        </Item>
+        <Item>
+            <Name> All-Purpose Flour</Name>
+           <Information>
+               <Detail>
+                   <Quantity>4</Quantity>
+                   <Unit>Tablespoon</Unit>
+               </Detail>
+           </Information>
+        </Item>
+        <Item>
+            <Name> Honey</Name>
+            <Information>
+                <Detail>
+                    <Quantity>4</Quantity>
+                    <Unit>Tablespoon</Unit>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Olive Oil</Name>
+           <Information>
+               <Detail>
+                   <Quantity>2</Quantity>
+                   <Unit>Tablespoon</Unit>
+               </Detail>
+           </Information>
+        </Item>
+        <Item>
+            <Name>Lime Zest</Name>
+            <Information>
+                <Detail>
+                    <Quantity>1</Quantity>
+                </Detail>
+            </Information>
+        </Item>
+        
+        <Item>
+            <Name>Butter</Name>
+          <Information>
+              <Detail>
+                  <Quantity>6</Quantity>
+                  <Unit>Tablespoon</Unit>
+              </Detail>
+          </Information>
+        </Item>
+        
+        <Item>
+            <Name>Garlic Cloves</Name>
+           <Information>
+               <Detail>
+                   <Quantity>2</Quantity>
+               </Detail>
+           </Information>
+        </Item>
+        <Item>
+            <Name>Lime Juice</Name>
+            <Information>
+                <Detail>
+                    <Quantity>1</Quantity>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Lime Juice</Name>
+            <Information>
+                <Detail>
+                    <Quantity>1</Quantity>
+                </Detail>
+            </Information>
+        </Item>
+        <Item>
+            <Name>Kosher Salt</Name>
+            <Information>add to taste</Information>
+        </Item>
+        <Item>
+            <Name>Black Pepper</Name>
+            <Information>grounded, add to taste</Information>
+        </Item>
+    </Ingredients>
+    <Procedure>
+        <Step>Preheat oven to 400 degrees F </Step> 
+        <Step>To make the browned butter lime sauce, melt butter in a medium saucepan over medium heat.
+            Cook, whisking constantly, until the foam subsides and the butter begins to turn a golden brown, about 3 minutes. Stir in garlic, honey and lime juice, salt and pepper, to taste; set aside. </Step>  
+        <Step>Season salmon with salt and pepper, to taste. Dredge each salmon filet with 1 tablespoon flour and drizzle with 1 tablespoon honey.</Step>
+        <Step>
+            Heat olive oil in a large oven-proof skillet over medium high heat. Working in batches, add salmon to the skillet and sear both sides until golden brown, about 1-2 minutes per side.
+        </Step>
+        <Step>
+            Place into oven and bake until completely cooked through, about 8-10 minutes.
+        </Step>
+        <Step>
+            Serve immediately with browned butter lime sauce and lime zest, if desired.
+        </Step>
+    </Procedure>
+    <Delectable/>
+    <Groups>
+        <!--  Intention was to add Group as External general entity in Recipe. -->
+        <Group Group_Name = "Group 1">
+            <Student ID='unv_600006297'>
+                <FirstName>Gaurav</FirstName>
+                <LastName>Kumar</LastName>              
+            </Student>
+            <Student ID='unv_600006298'>
+                <FirstName>Aditya</FirstName>
+                <LastName>Bisht</LastName>               
+            </Student>
+            <Student ID='unv_600006299'>
+                <FirstName>Vidya</FirstName>
+                <LastName>Swaroop</LastName>              
+            </Student>
+            <Student ID='unv_600006296'>
+                <FirstName>Neris</FirstName>
+                <LastName>Abreu Morillo</LastName>             
+            </Student>
+        </Group> 
+   </Groups>
+</Recipe>

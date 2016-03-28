@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This DTD will be a parameter entity in Recipe -->
+<!--  Ingredients have at leat one or more Item -->
+<!ELEMENT  Ingredients (Item)+ >
+<!-- Item consists of Name and item information-->
+<!ELEMENT  Item (Name, Information) >
+<!--  Information have mixed content -->
+<!ELEMENT  Information (#PCDATA | Detail)*>
+<!ELEMENT  Detail (Quantity,Unit?)>
+<!ELEMENT  Name (#PCDATA)>
+<!ELEMENT  Quantity (#PCDATA)>
+<!ELEMENT  Unit (#PCDATA)>

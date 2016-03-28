@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Parameter Entity for Instruction and Ingredient -->
+<!ENTITY % Instruction SYSTEM "Instructions.dtd"> 
+<!ENTITY % Ingredients SYSTEM "Ingredients.dtd"> 
+
+<!ELEMENT  Recipe (Title, Introduction, Ingredients, Procedure, Delectable?, Groups) >
+<!--  Enumerated type in one of the attributes -->
+<!--  Presenter with IDREF -->
+ <!ATTLIST Recipe Difficulty  (Beginner|Normal|Expert) #REQUIRED  
+                        Preptime CDATA #REQUIRED
+                        Cooktime CDATA #REQUIRED
+                        Yield CDATA #FIXED "4"
+                        RecipeBy IDREF #REQUIRED>   <!--  IDREF  -->
+                                                
+<!ELEMENT Title (#PCDATA) >
+<!ELEMENT  Introduction (Description+) >
+<!--  Empty tag -->
+<!ELEMENT  Description (#PCDATA) >
+<!ELEMENT Delectable EMPTY >
+
+<!--notation being used-->
+<!NOTATION PNG  SYSTEM "image/png">
+<!NOTATION JPG SYSTEM "image/jpeg">
+<!NOTATION GIF  SYSTEM "image/gif">
+<!ATTLIST Description  Image CDATA #REQUIRED 
+                  ImageType NOTATION (JPG|GIF|PNG) "JPG"
+                  Source CDATA #REQUIRED>                                   
+
+%Instruction;
+%Ingredients;
+<!ELEMENT Groups (Group)>
+<!ELEMENT  Group (Student+) >
+<!ATTLIST  Group Group_Name CDATA #REQUIRED >
+<!ELEMENT  Student (FirstName, LastName)>
+<!ELEMENT  FirstName (#PCDATA) >
+<!ELEMENT  LastName (#PCDATA) >
+<!ATTLIST  Student ID ID #REQUIRED >
+
+
+
